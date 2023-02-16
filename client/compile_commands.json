@@ -1,0 +1,51 @@
+[
+{
+  "directory": "E:\\pvz_online\\client",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX86\\x86\\cl.exe", "/c", "/nologo", "/std:c++17", "/EHsc", "/IE:\\Program Project\\vcpkg\\installed\\x86-windows-static\\include", "/Fobuild\\.objs\\clientDll\\windows\\x86\\release\\clientDll\\Communication.cpp.obj", "clientDll\\Communication.cpp"],
+  "file": "clientDll\\Communication.cpp"
+},
+{
+  "directory": "E:\\pvz_online\\client",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX86\\x86\\cl.exe", "/c", "/nologo", "/std:c++17", "/EHsc", "/IE:\\Program Project\\vcpkg\\installed\\x86-windows-static\\include", "/Fobuild\\.objs\\clientDll\\windows\\x86\\release\\clientDll\\dllmain.cpp.obj", "clientDll\\dllmain.cpp"],
+  "file": "clientDll\\dllmain.cpp"
+},
+{
+  "directory": "E:\\pvz_online\\client",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX86\\x86\\cl.exe", "/c", "/nologo", "/std:c++17", "/EHsc", "/IE:\\Program Project\\vcpkg\\installed\\x86-windows-static\\include", "/Fobuild\\.objs\\clientDll\\windows\\x86\\release\\clientDll\\Functions.cpp.obj", "clientDll\\Functions.cpp"],
+  "file": "clientDll\\Functions.cpp"
+},
+{
+  "directory": "E:\\pvz_online\\client",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX86\\x86\\cl.exe", "/c", "/nologo", "/std:c++17", "/EHsc", "/IE:\\Program Project\\vcpkg\\installed\\x86-windows-static\\include", "/Fobuild\\.objs\\clientDll\\windows\\x86\\release\\clientDll\\GUI.cpp.obj", "clientDll\\GUI.cpp"],
+  "file": "clientDll\\GUI.cpp"
+},
+{
+  "directory": "E:\\pvz_online\\client",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX86\\x86\\cl.exe", "/c", "/nologo", "/std:c++17", "/EHsc", "/IE:\\Program Project\\vcpkg\\installed\\x86-windows-static\\include", "/Fobuild\\.objs\\clientDll\\windows\\x86\\release\\clientDll\\Hooks.cpp.obj", "clientDll\\Hooks.cpp"],
+  "file": "clientDll\\Hooks.cpp"
+},
+{
+  "directory": "E:\\pvz_online\\client",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX86\\x86\\cl.exe", "/c", "/nologo", "/std:c++17", "/EHsc", "/IE:\\Program Project\\vcpkg\\installed\\x86-windows-static\\include", "/Fobuild\\.objs\\clientDll\\windows\\x86\\release\\clientDll\\pch.cpp.obj", "clientDll\\pch.cpp"],
+  "file": "clientDll\\pch.cpp"
+},
+{
+  "directory": "E:\\pvz_online\\client",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX86\\x86\\cl.exe", "/c", "/nologo", "/std:c++17", "/EHsc", "/IE:\\Program Project\\vcpkg\\installed\\x86-windows-static\\include", "/Fobuild\\.objs\\clientDll\\windows\\x86\\release\\clientDll\\Utils.cpp.obj", "clientDll\\Utils.cpp"],
+  "file": "clientDll\\Utils.cpp"
+},
+{
+  "directory": "E:\\pvz_online\\client",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX86\\x86\\cl.exe", "/c", "/nologo", "/std:c++17", "/EHsc", "/IE:\\Program Project\\vcpkg\\installed\\x86-windows-static\\include", "/Fobuild\\.objs\\clientDll\\windows\\x86\\release\\clientDll\\Values.cpp.obj", "clientDll\\Values.cpp"],
+  "file": "clientDll\\Values.cpp"
+},
+{
+  "directory": "E:\\pvz_online\\client",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX86\\x86\\cl.exe", "/c", "/nologo", "/DUNICODE", "/D_UNICODE", "/EHsc", "/IE:\\Program Project\\vcpkg\\installed\\x86-windows-static\\include", "/Fobuild\\.objs\\launcher\\windows\\x86\\release\\launcher\\launcher.cpp.obj", "launcher\\launcher.cpp"],
+  "file": "launcher\\launcher.cpp"
+},
+{
+  "directory": "E:\\pvz_online\\client",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX86\\x86\\cl.exe", "/c", "/nologo", "/DUNICODE", "/D_UNICODE", "/EHsc", "/IE:\\Program Project\\vcpkg\\installed\\x86-windows-static\\include", "/Fobuild\\.objs\\launcher\\windows\\x86\\release\\launcher\\LauncherGUI.cpp.obj", "launcher\\LauncherGUI.cpp"],
+  "file": "launcher\\LauncherGUI.cpp"
+}]

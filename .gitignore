@@ -1,0 +1,9 @@
+client/.vs
+client/.xmake
+client/.vscode
+client/build
+client/clientDll/Debug
+client/launcher/x64
+client/launcher/Debug
+client.7z
+*.idx

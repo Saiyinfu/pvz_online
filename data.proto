@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+message PkgData {
+    int32 playerId = 6;
+    string playerName = 1;
+    enum DataType {
+        HELLO = 0;
+        HEART = 1;
+        PLANT_REFRESH = 2;
+        PLANT_PLACEMENT = 3;
+        ZOMBIE_REFRESH = 4;
+        ZOMBIE_GENARATION = 5;
+        SUN_FRESH = 6;
+    }
+    DataType type = 2;
+    oneof content {
+        SunData sun = 3;
+        PlantRefreshData plantRefresh = 4;
+        ZombieRefreshData zombieRefresh = 5;
+    }
+}
+
+// Heart Data Struct
+
+message HeartData {
+    int32 count = 1;
+}
+
+// Sun Data Struct
+
+message SunData {
+    int32 sunValue = 1;
+}
+
+// Plant Data Struct
+
+message PlantData {
+    int32 line = 1;
+    int32 row = 2;
+    int32 type = 3;
+    int32 hp = 4;
+    int32 maxHp = 5;
+}
+
+message PlantRefreshData {
+    repeated PlantData plants = 1;
+}
+
+message PlantPlacementData {
+    PlantData plant = 1;
+}
+
+// Zombie Data Struct
+
+message ZombieData {
+    int32 line = 1;
+    float x = 2;
+    int32 type = 3;
+    int32 hp = 4;
+    int32 maxHp = 5;
+}
+
+message ZombieRefreshData {
+    repeated ZombieData zombies = 1;
+}

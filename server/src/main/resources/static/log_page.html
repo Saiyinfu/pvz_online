@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日志</title>
+</head>
+<body>
+<input type="button" value="测试日志" onclick="addLog(`测试`)">
+<input type="button" value="重新获取日志" onclick="
+    let div = document.getElementById(`log-div`)
+    while (div.firstChild) {
+        div.removeChild(div.firstChild)
+    }
+    ws.send(`refresh`)">
+<div id="log-div" >
+
+</div>
+    <script>
+        function addLog(str) {
+            let p = document.createElement("p")
+            p.textContent = str
+            document.getElementById("log-div").appendChild(p)
+        }
+        let ws = new WebSocket(`ws://localhost:${window.location.port}/games_log`)
+        ws.onopen = function () {
+            addLog("已连接")
+        }
+        ws.onclose = function () {
+            addLog("已断开")
+        }
+        ws.onmessage = function (evt) {
+            addLog(evt.data.toString())
+        }
+
+    </script>
+
+</body>
+</html>
